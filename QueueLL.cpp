@@ -37,6 +37,17 @@ int QueueLL::front()
 	return V.front();
 }
 
+
+void print_vector(vector<int> V)
+
+{
+	long n = V.size();
+	for (long i = 0; i < 0; i++)
+		cout << V[i] << ",";
+	cout << "\n";
+}
 void QueueLL::display()
 {
+
+	print_vector(V);
 }

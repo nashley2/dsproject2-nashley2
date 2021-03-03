@@ -15,7 +15,7 @@ StackLL::~StackLL()
 	S.erase(S.begin());
 }
 
-bool StackLL::empty(int v)
+bool StackLL::empty()
 {
 	if (S.size() == 0)
 	{
@@ -43,7 +43,7 @@ void StackLL::size()
 		cout << S[i] << "\n";
 }
 
-int StackLL::top()
+int StackLL::myFront()
 {
 	return S.back();
 }

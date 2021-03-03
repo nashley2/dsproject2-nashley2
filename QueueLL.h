@@ -14,7 +14,7 @@ public:
 	bool empty();
 	void enqueue(int e);// add element to back
 	void dequeue(); // removes element from the front
-	int front(); // retrive value of element from front
+	int front(); // retrieve value of element from front
 	void display();
 };
 

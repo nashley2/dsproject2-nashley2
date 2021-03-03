@@ -13,13 +13,13 @@ private:
 public:
 	StackLL();
 	~StackLL();
-	bool empty(int S);
+	bool empty();
 	void pop();
 	void push(int e);
 
 	void size();
 
-	int top();
+	int myFront();
 	void display();
 
 
