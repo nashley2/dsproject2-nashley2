@@ -8,14 +8,13 @@ using namespace std;
 class StackLL
 {
 private:
-	vector<int>v;
+	vector<int> S;
 	
 public:
 	StackLL();
 	~StackLL();
-	bool empty(int v);
+	bool empty(int S);
 	void pop();
-	int stack();
 	void push(int e);
 
 	void size();
